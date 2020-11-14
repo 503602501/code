@@ -1,0 +1,11 @@
+#个人的认证信息，个性化配置
+
+
+#能用的核心代码模块###### 默认读取 com.framework下的所有代码
+
+#能用的布局配置模块
+function.module=[{"model":"wechat.yml","expire":"20201010"}]
+
+
+
+
