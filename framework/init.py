@@ -5,8 +5,8 @@ import  hashlib
 
 #动态生成字段种包含账号和密码的加密信息
 
-key = globals()["key"]
+key =globals()["key"]
 account =globals()["account"]
 
-with open("../../config/"+KeyUtil.md5vale(account), "w") as x:
+with open("../../config/"+KeyUtil.md5vale(account), "w",encoding="utf-8") as x:
     x.write(key)
